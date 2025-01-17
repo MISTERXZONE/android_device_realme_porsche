@@ -843,6 +843,10 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
+# Display calibration data
+vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+
 # ESE
 odm/bin/hw/vendor.qti.esepowermanager@1.1-service
 odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
