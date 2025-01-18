@@ -575,8 +575,10 @@ odm/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 odm/lib64/camera/components/com.oplus.node.pilot.so
 odm/lib64/camera/components/com.oplus.node.preview.so
 odm/lib64/camera/components/com.oplus.node.videoenhance.so
+odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
+odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libCaptureBokeh.so
