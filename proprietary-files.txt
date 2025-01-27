@@ -939,6 +939,10 @@ vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/vpu20_4v_unsigned.mbn
 
+# Vibrator
+odm/etc/aac_richtap.config
+odm/lib64/libaacvibrator.so:vendor/lib64/libaacvibrator.so
+
 # WiFi
 odm/etc/wifi/bdwlang.elf
 odm/etc/wifi/bdwlanw.elf
