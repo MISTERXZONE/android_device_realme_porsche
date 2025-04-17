@@ -12,13 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/porsche/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_porsche
+PRODUCT_NAME := lineage_porsche
 PRODUCT_DEVICE := porsche
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX3312
+
+#Device stuff bringup
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_USES_OPLUS_CAMERA := true
+
+#MINDGapps include
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
