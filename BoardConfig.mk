@@ -11,7 +11,7 @@ DEVICE_PATH := device/realme/porsche
 
 # Display
 SOONG_CONFIG_qtidisplay_udfps := true
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 480
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
