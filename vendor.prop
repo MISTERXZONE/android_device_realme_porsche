@@ -13,3 +13,10 @@ persist.radio.multisim.config=dsds
 
 # USB
 vendor.usb.product_string=realme GT 2
+
+#infinty
+ro.product.marketname=realme GT 2
+ro.infinity.soc=Snapdragon 888
+ro.infinity.battery=4880 mAh
+ro.infinity.display=1080 x 2400 AMOLED, 120Hz, HDR10+, 1300 nits
+ro.infinity.camera=50MP + 8MP + 2MP & 16mp
