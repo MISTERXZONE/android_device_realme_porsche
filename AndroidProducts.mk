@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_porsche.mk
+    $(LOCAL_DIR)/infinity_porsche.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_porsche-user \
+    infinity_porsche-userdebug \
+    infinity_porsche-eng
