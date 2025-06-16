@@ -12,14 +12,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from porsche device
 $(call inherit-product, device/realme/porsche/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ProjectInfinityX  stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_porsche
+PRODUCT_NAME := infinity_porsche
 PRODUCT_DEVICE := porsche
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RMX3312
+
+# Infinity Flags
+INFINITY_MAINTAINER := Mister_X
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
+TARGET_INCLUDE_BCR := true
+USE_MOTO_CALCULATOR := true
+TARGET_INCLUDE_ACCORD := false
+WITH_GAPPS := true
+TARGET_BUILD_GOOGLE_TELEPHONY := true
+BYPASS_CHARGE_SUPPORTED := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
